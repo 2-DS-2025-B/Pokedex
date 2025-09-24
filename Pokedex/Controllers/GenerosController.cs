@@ -44,6 +44,7 @@ namespace Pokedex.Controllers
         }
 
         // GET: Generos/Create
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
